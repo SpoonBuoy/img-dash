@@ -2,13 +2,14 @@ import axios from "axios";
 
 
 
+const path = "http://localhost:8080/"
 
 export async function validateUser() {
     try {
     //console.log("login >>>", data);
 
     // Make the POST request using axios
-    const response = await axios.get('http://localhost:8080/valid-user', {withCredentials: true,});
+    const response = await axios.get(path + 'valid-user', {withCredentials: true,});
 
    // Log the response data and status code
     console.log('Response Data:', response.data);
@@ -29,7 +30,7 @@ export async function validateAdmin() {
     //console.log("login >>>", data);
 
     // Make the POST request using axios
-    const response = await axios.get('http://localhost:8080/valid-admin', {withCredentials: true,});
+    const response = await axios.get(path + 'valid-admin', {withCredentials: true,});
 
    // Log the response data and status code
     console.log('Response Data:', response.data);
@@ -49,7 +50,7 @@ export async function login(data) {
     //console.log("login >>>", data);
 
     // Make the POST request using axios
-    const response = await axios.post('http://localhost:8080/login', data, {withCredentials: true,});
+    const response = await axios.post(path + 'login', data, {withCredentials: true,});
 
    // Log the response data and status code
     console.log('Response Data:', response.data);
@@ -67,7 +68,7 @@ export async function logout() {
     //console.log("login >>>", data);
 
     // Make the POST request using axios
-    const response = await axios.get('http://localhost:8080/logout', {withCredentials: true,});
+    const response = await axios.get(path + 'logout', {withCredentials: true,});
 
    // Log the response data and status code
     console.log('Response Data:', response.data);
@@ -86,7 +87,7 @@ export async function signUp(data) {
     //console.log("login >>>", data);
 
     // Make the POST request using axios
-    const response = await axios.post('http://localhost:8080/signup', data, {withCredentials: true,});
+    const response = await axios.post(path + 'signup', data, {withCredentials: true,});
 
    // Log the response data and status code
     console.log('Response Data:', response.data);

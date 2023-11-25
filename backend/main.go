@@ -25,8 +25,6 @@ func main() {
 	im := storage.NewImageManager()
 	um := storage.NewUserManager()
 
-	// Initialize controller
-	//controller := controller.NewController(labelManager)
 	adminController := controllers.NewAdminController(lm, im)
 	feedController := controllers.NewFeedController(im)
 	userController := controllers.NewUserController(um)
