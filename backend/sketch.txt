@@ -1,0 +1,12 @@
+routes : login, signup, feed, admin
+
+feed : list of images with access to add or remove label to images
+|---- addlabel:[img, labels]
+|---- removelabel:[img, labels]
+
+admin: admin dashboard to create new labels, delete existing lables, upload images
+|---- createlabel [label]
+|---- removelables [lables]
+|---- uploadimage [images]
+
+

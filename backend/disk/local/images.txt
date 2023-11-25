@@ -1,0 +1,307 @@
+{
+ "path": "http://localhost:8080/uploads/Screenshot from 2023-10-23 12-57-40.png",
+ "labels": [
+  "abcd"
+ ]
+}
+,{
+ "path": "http://localhost:8080/uploads/Screenshot from 2023-10-25 10-06-44.png",
+ "labels": [
+  "abcd"
+ ]
+}
+,{
+ "path": "http://localhost:8080/uploads/Screenshot from 2023-10-25 18-17-22.png",
+ "labels": [
+  "zahid",
+  "arsalan"
+ ]
+}
+,{
+ "path": "http://localhost:8080/uploads/Screenshot from 2023-10-25 18-37-31.png",
+ "labels": []
+}
+,{
+ "path": "http://localhost:8080/uploads/Screenshot from 2023-10-27 08-59-51.png",
+ "labels": []
+}
+,{
+ "path": "http://localhost:8080/uploads/Screenshot from 2023-10-27 22-54-16.png",
+ "labels": []
+}
+,{
+ "path": "http://localhost:8080/uploads/Screenshot from 2023-10-27 22-54-44.png",
+ "labels": []
+}
+,{
+ "path": "http://localhost:8080/uploads/Screenshot from 2023-11-07 15-59-29.png",
+ "labels": []
+}
+,{
+ "path": "http://localhost:8080/uploads/Screenshot from 2023-11-09 15-47-16.png",
+ "labels": []
+}
+,{
+ "path": "http://localhost:8080/uploads/Screenshot from 2023-11-09 15-47-53.png",
+ "labels": []
+}
+,{
+ "path": "http://localhost:8080/uploads/Screenshot from 2023-11-21 19-17-23.png",
+ "labels": []
+}
+,{
+ "path": "http://localhost:8080/uploads/Screenshot from 2023-10-23 12-57-40.png",
+ "labels": [
+  "abcd"
+ ]
+}
+,{
+ "path": "http://localhost:8080/uploads/Screenshot from 2023-10-25 10-06-44.png",
+ "labels": [
+  "abcd"
+ ]
+}
+,{
+ "path": "http://localhost:8080/uploads/Screenshot from 2023-10-25 18-17-22.png",
+ "labels": [
+  "zahid",
+  "arsalan"
+ ]
+}
+,{
+ "path": "http://localhost:8080/uploads/Screenshot from 2023-10-25 18-37-31.png",
+ "labels": []
+}
+,{
+ "path": "http://localhost:8080/uploads/Screenshot from 2023-10-27 08-59-51.png",
+ "labels": []
+}
+,{
+ "path": "http://localhost:8080/uploads/Screenshot from 2023-10-27 22-54-16.png",
+ "labels": []
+}
+,{
+ "path": "http://localhost:8080/uploads/Screenshot from 2023-10-27 22-54-44.png",
+ "labels": []
+}
+,{
+ "path": "http://localhost:8080/uploads/Screenshot from 2023-11-07 15-59-29.png",
+ "labels": []
+}
+,{
+ "path": "http://localhost:8080/uploads/Screenshot from 2023-11-09 15-47-16.png",
+ "labels": []
+}
+,{
+ "path": "http://localhost:8080/uploads/Screenshot from 2023-11-09 15-47-53.png",
+ "labels": []
+}
+,{
+ "path": "http://localhost:8080/uploads/Screenshot from 2023-11-21 19-17-23.png",
+ "labels": []
+}
+,{
+ "path": "http://localhost:8080/uploads/Screenshot from 2023-10-23 12-57-40.png",
+ "labels": [
+  "abcd"
+ ]
+}
+,{
+ "path": "http://localhost:8080/uploads/Screenshot from 2023-10-25 10-06-44.png",
+ "labels": [
+  "abcd"
+ ]
+}
+,{
+ "path": "http://localhost:8080/uploads/Screenshot from 2023-10-25 18-17-22.png",
+ "labels": [
+  "zahid",
+  "arsalan"
+ ]
+}
+,{
+ "path": "http://localhost:8080/uploads/Screenshot from 2023-10-25 18-37-31.png",
+ "labels": []
+}
+,{
+ "path": "http://localhost:8080/uploads/Screenshot from 2023-10-27 08-59-51.png",
+ "labels": []
+}
+,{
+ "path": "http://localhost:8080/uploads/Screenshot from 2023-10-27 22-54-16.png",
+ "labels": []
+}
+,{
+ "path": "http://localhost:8080/uploads/Screenshot from 2023-10-27 22-54-44.png",
+ "labels": []
+}
+,{
+ "path": "http://localhost:8080/uploads/Screenshot from 2023-11-07 15-59-29.png",
+ "labels": []
+}
+,{
+ "path": "http://localhost:8080/uploads/Screenshot from 2023-11-09 15-47-16.png",
+ "labels": []
+}
+,{
+ "path": "http://localhost:8080/uploads/Screenshot from 2023-11-09 15-47-53.png",
+ "labels": []
+}
+,{
+ "path": "http://localhost:8080/uploads/Screenshot from 2023-11-21 19-17-23.png",
+ "labels": []
+}
+,{
+ "path": "http://localhost:8080/uploads/Screenshot from 2023-10-23 12-57-40.png",
+ "labels": [
+  "abcd"
+ ]
+}
+,{
+ "path": "http://localhost:8080/uploads/Screenshot from 2023-10-25 10-06-44.png",
+ "labels": [
+  "abcd"
+ ]
+}
+,{
+ "path": "http://localhost:8080/uploads/Screenshot from 2023-10-25 18-17-22.png",
+ "labels": [
+  "zahid",
+  "arsalan"
+ ]
+}
+,{
+ "path": "http://localhost:8080/uploads/Screenshot from 2023-10-25 18-37-31.png",
+ "labels": []
+}
+,{
+ "path": "http://localhost:8080/uploads/Screenshot from 2023-10-27 08-59-51.png",
+ "labels": []
+}
+,{
+ "path": "http://localhost:8080/uploads/Screenshot from 2023-10-27 22-54-16.png",
+ "labels": []
+}
+,{
+ "path": "http://localhost:8080/uploads/Screenshot from 2023-10-27 22-54-44.png",
+ "labels": []
+}
+,{
+ "path": "http://localhost:8080/uploads/Screenshot from 2023-11-07 15-59-29.png",
+ "labels": []
+}
+,{
+ "path": "http://localhost:8080/uploads/Screenshot from 2023-11-09 15-47-16.png",
+ "labels": []
+}
+,{
+ "path": "http://localhost:8080/uploads/Screenshot from 2023-11-09 15-47-53.png",
+ "labels": []
+}
+,{
+ "path": "http://localhost:8080/uploads/Screenshot from 2023-11-21 19-17-23.png",
+ "labels": []
+}
+,{
+ "path": "http://localhost:8080/uploads/Screenshot from 2023-10-23 12-57-40.png",
+ "labels": [
+  "abcd"
+ ]
+}
+,{
+ "path": "http://localhost:8080/uploads/Screenshot from 2023-10-25 10-06-44.png",
+ "labels": [
+  "abcd"
+ ]
+}
+,{
+ "path": "http://localhost:8080/uploads/Screenshot from 2023-10-25 18-17-22.png",
+ "labels": [
+  "zahid",
+  "arsalan"
+ ]
+}
+,{
+ "path": "http://localhost:8080/uploads/Screenshot from 2023-10-25 18-37-31.png",
+ "labels": []
+}
+,{
+ "path": "http://localhost:8080/uploads/Screenshot from 2023-10-27 08-59-51.png",
+ "labels": []
+}
+,{
+ "path": "http://localhost:8080/uploads/Screenshot from 2023-10-27 22-54-16.png",
+ "labels": []
+}
+,{
+ "path": "http://localhost:8080/uploads/Screenshot from 2023-10-27 22-54-44.png",
+ "labels": []
+}
+,{
+ "path": "http://localhost:8080/uploads/Screenshot from 2023-11-07 15-59-29.png",
+ "labels": []
+}
+,{
+ "path": "http://localhost:8080/uploads/Screenshot from 2023-11-09 15-47-16.png",
+ "labels": []
+}
+,{
+ "path": "http://localhost:8080/uploads/Screenshot from 2023-11-09 15-47-53.png",
+ "labels": []
+}
+,{
+ "path": "http://localhost:8080/uploads/Screenshot from 2023-11-21 19-17-23.png",
+ "labels": []
+}
+,{
+ "path": "http://localhost:8080/uploads/Screenshot from 2023-10-23 12-57-40.png",
+ "labels": [
+  "abcd"
+ ]
+}
+,{
+ "path": "http://localhost:8080/uploads/Screenshot from 2023-10-25 10-06-44.png",
+ "labels": [
+  "abcd"
+ ]
+}
+,{
+ "path": "http://localhost:8080/uploads/Screenshot from 2023-10-25 18-17-22.png",
+ "labels": [
+  "zahid",
+  "arsalan"
+ ]
+}
+,{
+ "path": "http://localhost:8080/uploads/Screenshot from 2023-10-25 18-37-31.png",
+ "labels": []
+}
+,{
+ "path": "http://localhost:8080/uploads/Screenshot from 2023-10-27 08-59-51.png",
+ "labels": []
+}
+,{
+ "path": "http://localhost:8080/uploads/Screenshot from 2023-10-27 22-54-16.png",
+ "labels": []
+}
+,{
+ "path": "http://localhost:8080/uploads/Screenshot from 2023-10-27 22-54-44.png",
+ "labels": []
+}
+,{
+ "path": "http://localhost:8080/uploads/Screenshot from 2023-11-07 15-59-29.png",
+ "labels": []
+}
+,{
+ "path": "http://localhost:8080/uploads/Screenshot from 2023-11-09 15-47-16.png",
+ "labels": []
+}
+,{
+ "path": "http://localhost:8080/uploads/Screenshot from 2023-11-09 15-47-53.png",
+ "labels": []
+}
+,{
+ "path": "http://localhost:8080/uploads/Screenshot from 2023-11-21 19-17-23.png",
+ "labels": []
+}
+,

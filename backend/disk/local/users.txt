@@ -1,0 +1,37 @@
+{
+ "email": "jd@jd.com",
+ "password": "$2a$10$YwQ/Y2Yefwp1ZdIuwdRA1OuK/jQoFgTRHYi.Te5E3qG.iSjL2RnYC",
+ "username": "john_doe",
+ "is-admin": false
+}
+,{
+ "email": "jdadmin@jd.com",
+ "password": "$2a$10$NcERFXWbAhPswSpZvGqREeTJ1CvcP3ATiTpVK0IxNx68bi7f9wyL2",
+ "username": "john_doe",
+ "is-admin": true
+}
+,{
+ "email": "a",
+ "password": "$2a$10$BdLjID7oLv8hqd2u6ZU9u.QNPjtdti32LXkegp75JGOlbzdl/zwUy",
+ "username": "a",
+ "is-admin": true
+}
+,{
+ "email": "ars@xyz.co",
+ "password": "$2a$10$ouKGhI9O4TePNhpjpcS02e4ARDSSw/E0j3PMUQZO9zOF7MzdmC4fW",
+ "username": "arsalan ",
+ "is-admin": true
+}
+,{
+ "email": "arsalan",
+ "password": "$2a$10$oUXFmy9LCLBZTEX7p4wIA.sejge4P14kEcKMen3.x78Z9VloIawAu",
+ "username": "arsalan",
+ "is-admin": true
+}
+,{
+ "email": "zahid",
+ "password": "$2a$10$2EtHkK6S8wdC6tBAC0U7QeSn2.yTIVR1pQZ/mUlwN40phJvVrC/1q",
+ "username": "zahid",
+ "is-admin": false
+}
+,
