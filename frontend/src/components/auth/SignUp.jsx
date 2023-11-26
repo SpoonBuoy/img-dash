@@ -9,9 +9,11 @@ export default function SignUp() {
   const [isAdmin, setIsAdmin] = useState(false);
   const [signUpButton, setSignUpButton] = useState(false);
   const [error, setError] = useState(false);
+	const[signUpButtonText, setSignUpButtonText] = useState("Sign Up");
 
+	//validation for character limit
   const handleInput = (e) => {
-    if (e.target.id === "username") {
+	  if (e.target.id === "username") {
       setUserName(e.target.value);
       if (
         e.target.value !== "" &&
@@ -67,6 +69,18 @@ export default function SignUp() {
         setSignUpButton(true);
       else setSignUpButton(false);
     }
+// validation for character limit
+const limit = 5;
+
+if (userName.length < limit || email.length < limit || password.length < 5 ) {
+  setSignUpButton(false);
+	setSignUpButtonText("Character Limit not satisfied for userName and Email");
+} else {
+	setSignUpButtonText("SignUp");
+  setSignUpButton(true);
+}
+
+
   };
 
   const handleSignUpButton = () => {
@@ -174,7 +188,7 @@ export default function SignUp() {
               !signUpButton ? "bg-gray-400" : ""
             } text-lg text-white bg-blue-600 p-2 rounded-lg`}
           >
-            Sign Up
+	  {signUpButtonText}
           </button>
         </div>
       </div>

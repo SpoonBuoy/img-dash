@@ -5,6 +5,8 @@ export default function SignUpLogin() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [loginButton, setLoginButton] = useState(false);
+  const [loginButtonText, setLoginButtonText] = useState("Login");
+
 
   const handleInput = (e) => {
     if (e.target.id === "email") {
@@ -23,7 +25,7 @@ export default function SignUpLogin() {
       email: email,
       password: password,
     };
-    login(data);
+    login(data, setLoginButtonText);
     setEmail('');
     setPassword('');
     setLoginButton(false);
@@ -66,7 +68,7 @@ export default function SignUpLogin() {
               !loginButton ? "bg-gray-400" : ""
             } text-lg text-white bg-blue-600 p-2 rounded-lg`}
           >
-            Login
+	  {loginButtonText} 
           </button>
         </div>
       </div>

@@ -1,7 +1,9 @@
+import { useState } from "react";
 import { logout } from "../../services/auth.service";
 export default function Logout() {
+	const [logoutButtonText, setLogoutButtonText] = useState("Logout");
  const handleLogoutButton = () => {
-    logout();
+    logout(setLogoutButtonText);
 
   };
   return (
@@ -10,7 +12,7 @@ export default function Logout() {
             onClick={handleLogoutButton}
             className={`text-lg text-white bg-blue-600 p-2 rounded-lg`}
           >
-            Logout
+	  {logoutButtonText}
           </button>
     </div>
   );

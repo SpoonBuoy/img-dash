@@ -45,7 +45,7 @@ export async function validateAdmin() {
       return false
   }
 }
-export async function login(data) {
+export async function login(data, setLoginButtonText) {
    try {
     //console.log("login >>>", data);
 
@@ -53,7 +53,8 @@ export async function login(data) {
     const response = await axios.post(path + 'login', data, {withCredentials: true,});
 
    // Log the response data and status code
-    console.log('Response Data:', response.data);
+    console.log('Response Data:', response.data.message);
+	setLoginButtonText(response.data.message);
     console.log('Status Code:', response.status);
   } catch (err) {
       if (err.response){
@@ -63,7 +64,7 @@ export async function login(data) {
       }
   }
 }
-export async function logout() {
+export async function logout(setLogoutButtonText) {
    try {
     //console.log("login >>>", data);
 
@@ -73,6 +74,7 @@ export async function logout() {
    // Log the response data and status code
     console.log('Response Data:', response.data);
     console.log('Status Code:', response.status);
+	setLogoutButtonText("Logged Out Successfully")
   } catch (err) {
       if (err.response){
         console.log(err.response.data.message)
