@@ -15,7 +15,6 @@ An admin dashboard with
 - [Backend Setup](#backend-setup)
 - [Frontend Setup](#frontend-setup)
 - [Running the Application](#running-the-application)
-- [Contributing](#contributing)
 
 
 ## Technologies Used
