@@ -1,6 +1,5 @@
 
 import axios from "axios";
-import data from "../data/data.json";
 const path = "http://localhost:8080/"
 //tested
 export async function getLabels(setLabels) {
@@ -142,7 +141,7 @@ export async function deleteLabels(data) {
   }
 }
 
-export async function uploadFiles(data) {
+export async function uploadFiles(data, setUploadButtonText) {
  
     try {
       const response = await axios.post(path + 'upload', data, {
@@ -153,7 +152,9 @@ export async function uploadFiles(data) {
       });
 
       console.log('Upload successful', response.data);
+		setUploadButtonText("Images Uploaded");
     } catch (error) {
       console.error('Error uploading files', error);
+		setUploadButtonText("Failed to Upload Images");
     }
 }

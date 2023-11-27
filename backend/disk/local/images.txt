@@ -304,4 +304,40 @@
  "path": "http://localhost:8080/uploads/Screenshot from 2023-11-21 19-17-23.png",
  "labels": []
 }
+,{
+ "path": "http://localhost:8080/uploads/dpv1.png",
+ "labels": []
+}
+,{
+ "path": "http://localhost:8080/uploads/igv1.png",
+ "labels": []
+}
+,{
+ "path": "http://localhost:8080/uploads/igv2.png",
+ "labels": []
+}
+,{
+ "path": "http://localhost:8080/uploads/igv2front.png",
+ "labels": []
+}
+,{
+ "path": "http://localhost:8080/uploads/dpv1.png",
+ "labels": []
+}
+,{
+ "path": "http://localhost:8080/uploads/igv1.png",
+ "labels": []
+}
+,{
+ "path": "http://localhost:8080/uploads/igv2.png",
+ "labels": []
+}
+,{
+ "path": "http://localhost:8080/uploads/igv2front.png",
+ "labels": []
+}
+,{
+ "path": "http://localhost:8080/uploads/Untitled design(1).png",
+ "labels": []
+}
 ,

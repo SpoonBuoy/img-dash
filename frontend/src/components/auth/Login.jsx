@@ -25,6 +25,7 @@ export default function SignUpLogin() {
       email: email,
       password: password,
     };
+	setLoginButtonText("Logging In...")
     login(data, setLoginButtonText);
     setEmail('');
     setPassword('');
