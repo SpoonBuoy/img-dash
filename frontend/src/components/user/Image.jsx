@@ -1,7 +1,7 @@
 import AssignLabels from "./AssignLabels";
 import RemoveLabels from "./RemoveLabels";
 
-export default function Image({ id, image, labels, setButtonClicked }) {
+export default function Image({ id, image, labels, setButtonClicked, setLabels }) {
 
   return (
     <div className="bg-blue-100 rounded-md flex flex-col justify-between">
@@ -26,9 +26,9 @@ export default function Image({ id, image, labels, setButtonClicked }) {
           ))}
         </div>
 
-        <AssignLabels id={id} labels={labels} setButtonClicked = {setButtonClicked}/>
+        <AssignLabels id={id} labels={labels} setButtonClicked = {setButtonClicked} setLabels = {setLabels}/>
 
-        <RemoveLabels id={id} labels={image.labels} setButtonClicked = {setButtonClicked} />
+        <RemoveLabels id={id} labels={image.labels} setButtonClicked = {setButtonClicked} setLabels = {setLabels} />
       </div>
     </div>
   );

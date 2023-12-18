@@ -29,7 +29,7 @@ const[uploadButtonText, setUploadButtonText] = useState("upload");
     selectedFiles.forEach((file) => {
       formData.append('files', file);
     });
-
+    setUploadButtonText("Uploading Files");
     // Assuming uploadFiles is an async function
     uploadFiles(formData, setUploadButtonText);
 

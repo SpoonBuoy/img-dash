@@ -16,9 +16,12 @@ export default function ViewImages() {
     const data = {
       filters : []
     }
-    getImages(data, setImages);
+    getImages(data, setImages, page + 1).then((data) => {console.log("from get images", data)})
     getLabels(setLabels);
-  }, [buttonClicked]);
+    console.log("Button clicked")
+  }, [buttonClicked, page]);
+
+  console.log("after use effect", images[1]);
   
 
 
@@ -122,10 +125,10 @@ export default function ViewImages() {
       >
         {filterButton
           ? filteredImages.map((img, index) => (
-              <Image setButtonClicked = {setButtonClicked} key={index} image={img} labels={labels} />
+              <Image setButtonClicked = {setButtonClicked} key={index} image={img} labels={labels} setLabels = {setLabels} />
             ))
           : images.map((img, index) => (
-              <Image setButtonClicked = {setButtonClicked} key={index} id={img.path} image={img} labels={labels} />
+              <Image setButtonClicked = {setButtonClicked} key={index} id={img.path} image={img} labels={labels} setLabels = {setLabels} />
             ))}
       </div>
     </div>

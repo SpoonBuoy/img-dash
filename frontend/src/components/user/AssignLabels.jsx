@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { assignLabels } from "../../services/user.service";
 
-export default function AssignLabels({ id, labels, setButtonClicked }) {
+export default function AssignLabels({ id, labels, setButtonClicked, setLabels}) {
   const [selectedLabels, setSelectedLabels] = useState([]);
   const [showLabels, setShowLabels] = useState(false);
   const [assignButton, setAssignButton] = useState(false);
@@ -33,13 +33,12 @@ export default function AssignLabels({ id, labels, setButtonClicked }) {
       image: id,
       labels: selectedLabels,
     };
-    
-    assignLabels(data);
+    assignLabels(data, setButtonClicked);
     setSelectedLabels([]);
     setAssignButton(false);
     setShowLabels(false);
 
-    setButtonClicked(prev => !prev)
+    //setButtonClicked(prev => !prev)
   };
 
   return (

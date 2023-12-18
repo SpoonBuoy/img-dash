@@ -37,8 +37,9 @@ export async function getImages(data, setImages, page = 1) {
     console.log(page)
     if(page === 1){
       const response = await axios.post(path + 'images', data, {withCredentials: true,});
-      setImages(response.data.images)
-      console.log(response.data.images)
+      setImages([...response.data.images])
+      return response.data.images
+     // console.log(response.data.images)
       
     }else{
       const response = await axios.post(path + 'images', data, {
@@ -49,13 +50,9 @@ export async function getImages(data, setImages, page = 1) {
       });
       console.log(response.data.images)
       setImages(prev => [...prev, ...response.data.images])
+      return response.data.images
     }
-    
-   // Log the response data and status code
-  //  console.log(response.data.images)
-  
-  //   console.log('Response Data:', response.data);
-  //   console.log('Status Code:', response.status);
+   
   } catch (err) {
       if (err.response){
         console.log(err.response.data.message)
@@ -63,16 +60,17 @@ export async function getImages(data, setImages, page = 1) {
         console.log(err.message)
       }
   }
+  return "xx";
 }
 
-export async function assignLabels(data) {
+export async function assignLabels(data, setButtonClicked) {
   try {
     // Make the POST request using axios
     const response = await axios.post(path + 'add-labels', data, {withCredentials: true,});
-
    // Log the response data and status code
-    console.log('Response Data:', response.data);
+    console.log('Response Data: from assign label', response.data);
     console.log('Status Code:', response.status);
+    setButtonClicked(prev => !prev)
   } catch (err) {
       if (err.response){
         console.log(err.response.data.message)
@@ -80,6 +78,7 @@ export async function assignLabels(data) {
         console.log(err.message)
       }
   }
+  //setButtonClicked(prev => !prev)
 }
 
 export async function removeLabels(data) {
@@ -152,7 +151,7 @@ export async function uploadFiles(data, setUploadButtonText) {
       });
 
       console.log('Upload successful', response.data);
-		setUploadButtonText("Images Uploaded");
+		  setUploadButtonText("Images Uploaded");
     } catch (error) {
       console.error('Error uploading files', error);
 		setUploadButtonText("Failed to Upload Images");

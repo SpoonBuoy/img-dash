@@ -1,4 +1,4 @@
-# Origin Health
+# IMG-DASH 
 
 ## Deployed Demo of the Project
 - https://arsalan.live/

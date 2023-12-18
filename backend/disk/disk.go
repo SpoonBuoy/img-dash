@@ -29,12 +29,13 @@ func SaveToFile(filename string, rawData interface{}) error {
 	// Serialize each struct and append it to the file
 	switch v := rawData.(type) {
 	case []models.Image:
+		data, _ := json.Marshal(v)
+		fmt.Println("images", string(data))
 		for _, img := range v {
 			data, err := json.MarshalIndent(img, "", " ")
 			if err != nil {
 				return err
 			}
-
 			_, err = file.Write(appendNewlineIfNotExists(data))
 			if err != nil {
 				return err
@@ -46,7 +47,7 @@ func SaveToFile(filename string, rawData interface{}) error {
 		if err != nil {
 			return err
 		}
-
+		fmt.Println("user", string(data))
 		_, err = file.Write(appendNewlineIfNotExists(data))
 		if err != nil {
 			return err
@@ -54,7 +55,11 @@ func SaveToFile(filename string, rawData interface{}) error {
 
 		return nil
 	case []string:
-
+		data, err := json.Marshal(v)
+		if err != nil {
+			fmt.Println("failed to marshall v", err)
+		}
+		fmt.Println("labels", data)
 		for _, lbl := range v {
 			data, err := json.MarshalIndent(lbl, "", " ")
 			if err != nil {
